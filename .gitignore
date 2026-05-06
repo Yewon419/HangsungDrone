@@ -1,0 +1,91 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# Virtual environments
+venv/
+env/
+ENV/
+.venv/
+
+# Type checking / linting
+.mypy_cache/
+.ruff_cache/
+.pytype/
+
+# Testing
+.pytest_cache/
+.coverage
+.coverage.*
+htmlcov/
+.tox/
+.nox/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Node.js (frontend 추후)
+node_modules/
+.npm
+.pnp
+.pnp.js
+.next/
+out/
+
+# Logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+pnpm-debug.log*
+
+# Environment
+.env
+.env.local
+.env.*.local
+*.env
+
+# Secrets
+secrets/
+credentials.json
+*.pem
+*.key
+
+# CV models (대용량)
+safety-monitor/models/*
+!safety-monitor/models/.gitkeep
+
+# Firmware build artifacts
+drone-firmware-l15/build/
+drone-firmware-l3/build/
+*.elf
+*.bin
+*.hex
+
+# Blender autosave
+*.blend1
+*.blend2
+*.blend3
