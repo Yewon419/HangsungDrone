@@ -89,3 +89,6 @@ drone-firmware-l3/build/
 *.blend1
 *.blend2
 *.blend3
+
+# Local-only presentations (private materials with sensitive info)
+presentation/
