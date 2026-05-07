@@ -72,7 +72,7 @@ B의 통신 방식(REST·WebSocket·gRPC·RTSP·Crazyradio) 위에, **운영 디
 | 역할 | 권한 |
 |---|---|
 | `customer` | 본인 예약·결제·미리보기·계약서 |
-| `designer` | 디자인 업로드·견적 산출 (예원) |
+| `designer` | 디자인 업로드·견적 산출 (오너) |
 | `operator` | 시연 운영 대시보드, 텔레메트리 조회 |
 | `system` | 모듈 간 service-to-service 호출 |
 

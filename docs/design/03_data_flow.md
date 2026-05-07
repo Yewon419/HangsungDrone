@@ -27,7 +27,7 @@ sequenceDiagram
     actor User as 고객
     participant FE as frontend
     participant BE as backend
-    actor Owner as 예원
+    actor Owner as 오너
     participant Toss
 
     User->>FE: 캘린더 페이지 접속
@@ -49,7 +49,7 @@ sequenceDiagram
     BE->>User: 이메일 (계약서 첨부)
 ```
 
-**핵심**: 견적은 *수동 (예원)*, 나머지는 *자동*. 반자동 SaaS의 정의.
+**핵심**: 견적은 *수동 (오너)*, 나머지는 *자동*. 반자동 SaaS의 정의.
 
 ---
 
@@ -187,7 +187,7 @@ sequenceDiagram
     participant FC as field-controller
     participant BE as backend
     actor User as 고객
-    actor Owner as 예원
+    actor Owner as 오너
     participant Log as logistics
 
     Note over Ops,FC: 시연 종료 직후
@@ -209,7 +209,7 @@ sequenceDiagram
     BE->>BE: 계약 종료 처리
 ```
 
-**핵심**: 사후는 *backend 자동* 흐름이 대부분. 예원 개입은 보고 자료 *승인* 정도.
+**핵심**: 사후는 *backend 자동* 흐름이 대부분. 오너 개입은 보고 자료 *승인* 정도.
 
 ---
 
