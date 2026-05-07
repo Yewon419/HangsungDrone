@@ -131,4 +131,5 @@ B의 통신 방식(REST·WebSocket·gRPC·RTSP·Crazyradio) 위에, **운영 디
 - ✅ B. 인터페이스 카탈로그 → `02_interface_catalog.md`
 - ✅ C. 데이터 흐름도 → `03_data_flow.md`
 - ✅ D. 통신 프로토콜 디테일 → 본 파일
-- **E. 장애·재시작 시나리오** (다음, 시스템 아키텍처 5단계 마지막)
+- ✅ E. 장애·재시작 시나리오 → `05_failure_scenarios.md`
+- **시스템 아키텍처 5단계 완료**

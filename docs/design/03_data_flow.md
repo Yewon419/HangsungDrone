@@ -234,4 +234,5 @@ graph LR
 - ✅ B. 인터페이스 카탈로그 → `02_interface_catalog.md`
 - ✅ C. 데이터 흐름도 → 본 파일
 - ✅ D. 통신 프로토콜 디테일 → `04_communication_protocols.md`
-- **E. 장애·재시작 시나리오** — 다음 (시스템 아키텍처 5단계 마지막)
+- ✅ E. 장애·재시작 시나리오 → `05_failure_scenarios.md`
+- **시스템 아키텍처 5단계 완료**

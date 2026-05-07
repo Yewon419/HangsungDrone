@@ -112,4 +112,5 @@ ADR은 별도 트랙: `adr/NNNN-title.md`
 
 - ✅ **C. 데이터 흐름도** → `03_data_flow.md`
 - ✅ **D. 통신 프로토콜 디테일** → `04_communication_protocols.md`
-- **E. 장애·재시작 시나리오** — 다음
+- ✅ **E. 장애·재시작 시나리오** → `05_failure_scenarios.md`
+- **시스템 아키텍처 5단계 완료**
